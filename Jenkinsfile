@@ -14,7 +14,7 @@ pipeline {
 		EMAIL_DEPLOY_PRODUCTION_COMPLETED = 'oviquez@auxis.com'
 		
 		// Flags to adjust the behavior of the pipeline
-		EXECUTE_STAGE_REVIEW = 'true'											// Flags if the process should be reviewed using the Workflow Analyzer
+		EXECUTE_STAGE_REVIEW = 'false'											// Flags if the process should be reviewed using the Workflow Analyzer
 		EXECUTE_STAGE_TEST = 'false'												// Run the test phase
 		DEPLOY_TO_PRODUCTION = 'true'											// Determines if the package should be deployed in Production
 		CREATE_ASSETS_AND_QUEUES = 'false'										// Indicates if the process to create assets and queues should be executed
