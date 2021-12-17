@@ -32,10 +32,10 @@ pipeline {
 		UIPATH_ORCH_STAGE_CREDENTIALS = 'UiPathCloudAPIKey'
 		
 		// Production Orchestrator
-		UIPATH_ORCH_PRODUCTION_URL = 'https://devrpa01.auxis-its.com/'
-		UIPATH_ORCH_PRODUCTION_TENANT = 'Auxis'
+		UIPATH_ORCH_PRODUCTION_URL = 'https://cloud.uipath.com/auxissvgjhpt/DefaultTenant/orchestrator_/'
+		UIPATH_ORCH_PRODUCTION_TENANT = 'Default'
 		UIPATH_ORCH_PRODUCTION_FOLDER = 'Default'
-		UIPATH_ORCH_PRODUCTION_CREDENTIALS = 'UiPathDevAuxisTraining'
+		UIPATH_ORCH_PRODUCTION_CREDENTIALS = 'UiPathCloudAPIKey'
 
 		// Version numbers
 		MAJOR = '1'
