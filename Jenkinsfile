@@ -33,8 +33,8 @@ pipeline {
 		
 		// Production Orchestrator
 		UIPATH_ORCH_PRODUCTION_URL = 'https://devrpa01.auxis-its.com/'
-		UIPATH_ORCH_PRODUCTION_TENANT = 'AuxisTraining'
-		UIPATH_ORCH_PRODUCTION_FOLDER = 'Test_Jenkins'
+		UIPATH_ORCH_PRODUCTION_TENANT = 'Auxis'
+		UIPATH_ORCH_PRODUCTION_FOLDER = 'Default'
 		UIPATH_ORCH_PRODUCTION_CREDENTIALS = 'UiPathDevAuxisTraining'
 
 		// Version numbers
