@@ -361,7 +361,9 @@ pipeline {
 				// Display an input in Jenkins to ask for approval
 				echo "$STAGE_NAME - Waiting for approval before moving forward"
 				input (
-					message: "The RPA process is ready to be promoted to Production. Do you want to continue with the pipeline?"
+					message: "The RPA process is ready to be promoted to Production. Do you want to continue with the pipeline?",		
+					submitter: "viquezo";
+
 				)
 
 				// Notify the developer that the process was approved for Production (if it gets to this part is because it was approved)
