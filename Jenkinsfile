@@ -362,7 +362,7 @@ pipeline {
 				echo "$STAGE_NAME - Waiting for approval before moving forward"
 				input (
 					message: "The RPA process is ready to be promoted to Production. Do you want to continue with the pipeline?",		
-					submitter: "viquezo";
+					submitter: "viquezo"
 
 				)
 
